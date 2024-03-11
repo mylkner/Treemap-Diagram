@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#title,
+#description {
+    text-align: center;
+}
+
+svg {
+    overflow: visible;
+    padding-bottom: 300px;
+}
+
+#tooltip {
+    font-size: 14px;
+    background: linear-gradient(45deg, skyblue, rgb(255, 0, 255));
+    color: rgba(1, 1, 124, 0.979);
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+    pointer-events: none;
+}
